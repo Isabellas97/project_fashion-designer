@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Euclid;
+  src: url("../font/Euclid\ Circular\ A\ Regular.ttf");
+}
+
+@font-face {
+  font-family: EuclidBold;
+  src: url("../font/Euclid\ Circular\ A\ Bold.ttf.ttf");
+}
+
+@font-face {
+  font-family: EuclidSemiBold;
+  src: url("../font/Euclid\ Circular\ A\ SemiBold.ttf.ttf");
+}
+
+@font-face {
+  font-family: EuclidMedi;
+  src: url("../font/Euclid\ Circular\ A\ Medium.ttf.ttf");
+}
+
+@font-face {
+  font-family: NewYork;
+  src: url("../font/NewYork\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+h1 {
+  font-size: 200px;
+  font-family: NewYork;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 100px;
+  font-family: NewYork;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 60px;
+  font-family: NewYork;
+  color: #ffffff;
+}
+
+p {
+  font-family: Inter;
+  color: #999999;
+}
+
+button {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 83.92px;
+  border: 1px solid #3c3636;
+  background-color: #272422;
+  width: 10vw;
+  padding: 3vh 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272422;
+  margin: 20vw;
+}
+
+/* - Section 2 ISA */
+
+.passion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #3f3a36;
+  border-bottom: 1px solid #3f3a36;
+  padding: 10vh 7vw;
+}
+
+.passion h2 {
+  text-align: center;
+}
+
+.passion p {
+  text-align: center;
+  line-height: 1.8rem;
+  padding: 2vh 8vw 8vh 8vw;
+}
+
+button {
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+
+/* - Section 3 ISA */
